@@ -3,7 +3,7 @@ import { exportClipsByName } from "./exportClipsByName.js";
 
 export function activate(activation: ActivationContext) {
   const context = initialize(activation, "1.0.0");
-
+  console.log("Extension activated");
   void context.ui.registerContextMenuAction(
     "AudioTrack",
     "Export Clips by Name",

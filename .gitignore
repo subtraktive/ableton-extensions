@@ -1,0 +1,36 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript / build output
+dist/
+build/
+*.tsbuildinfo
+
+# Ableton extension packages
+*.ablx
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Test / coverage
+coverage/
