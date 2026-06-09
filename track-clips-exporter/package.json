@@ -1,7 +1,9 @@
 {
-  "name": "clip-exporter",
+  "name": "track-clips-exporter",
   "version": "1.0.0",
   "main": "dist/extension.js",
+  "author": "subtraktive",
+  "description": "Ableton Live extension to export all the clips from a track by their name to any folder on the system",
   "engines": {
     "node": ">=24.14.1"
   },
